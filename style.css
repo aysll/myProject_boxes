@@ -1,0 +1,84 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+/*her div ucun ayri animasiya*/
+.bir{	background: red;
+	height: 50px;
+	width: 80px;
+	margin-top: 0px;
+	margin-left: 0px;
+	position: absolute;
+	float: left;
+	animation-fill-mode: forwards;
+	animation-name: bir ;
+	animation-duration: 2s;
+}
+   @keyframes bir{
+0%{transform: translate(0);
+}
+100%{
+    transform: translate(200px);
+
+}
+}
+.iki{
+	background: green;
+	height: 50px;
+	width: 80px;
+	margin-left: 200px;
+	margin-bottom: 50px;
+	position: absolute;
+	float: right;
+	animation-delay: 2s;
+	animation-name: iki ;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+@keyframes iki{
+0%{transform: translateY(0);
+}
+100%{transform: translateY(200px);
+
+
+}
+}
+.uc{
+	background: yellow;
+	height: 50px;
+	width: 80px;
+	margin-top: 200px;
+	margin-left: 200px;
+	position: absolute;
+	animation-name: uc 6s;
+	animation-fill-mode: forwards;
+	animation-delay: 4s;
+	animation-name: uc ;
+	animation-duration: 2s;
+}
+@keyframes uc{
+0%{transform: translateX(0);
+}
+100%{transform: translateX(-200px);
+}
+}
+.dord{
+	background: blue;
+	height: 50px;
+	width: 80px;
+	margin-top: 200px;
+	margin-left: 0px;
+	position: absolute;
+	animation-name: dord 8s;
+	animation-fill-mode: forwards;
+	float: right;
+	animation-name: dord ;
+	animation-duration: 2s;
+	animation-delay: 6s;
+}
+@keyframes dord{
+0%{transform: translateY(0);
+}
+100%{transform: translateY(-200px);
+}
+}
